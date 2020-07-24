@@ -1,5 +1,5 @@
-if [ ! -e '/tmp/check' ]; then
-    touch /tmp/check
+if [ ! -e '/check' ]; then
+    touch /check
     echo "セットアップ"
 else
     echo "セットアップ済"
